@@ -16,8 +16,9 @@ RUN apk --no-cache --update-cache \
       openblas-dev
 
 RUN pip3 install --upgrade pip 
-RUN pip3 install
+RUN pip3 install \
       numpy \
       scipy  \
-      scikit-learn \ 
+      scikit-learn \
+      matplotlib \
       'pandas<0.21.0'
