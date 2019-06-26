@@ -12,7 +12,6 @@ RUN apk --no-cache --update-cache \
       python3 \
       python3-dev \
       libpng-dev \
-      libjpeg-dev \
       openblas-dev
 
 RUN pip3 install --upgrade pip 
