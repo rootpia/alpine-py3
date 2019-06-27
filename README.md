@@ -1,3 +1,3 @@
 # Alpine based Python Environment
 
-Alpineをベースにして、省サイズのPython環境が作れないか試行。
+Python environment of the size-saving docker image, based on Alpine, try it.
