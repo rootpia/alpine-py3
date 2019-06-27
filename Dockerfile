@@ -5,7 +5,7 @@ LABEL MAINTAINER="rootpia <nothing>"
 RUN echo "http://dl-8.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories &&\
     echo "http://dl-cdn.alpinelinux.org/alpine/v3.5/main" >> /etc/apk/repositories
 
-RUN apk --no-cache --update \
+RUN apk add --no-cache --update \
       musl musl-dev \
       linux-headers gcc g++ make gfortran \
       freetype freetype-dev \
